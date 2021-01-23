@@ -4,9 +4,6 @@ $array1=["IntelliJ", "Web", "PHP", "Jet", "Py", "Android", "C", "Go", "Ruby", "D
 $array2=["IDEA", "Storm", "Brains", "Charm", "Studio", "Lion", "Land", "Mine", "Grip"];
 $nbphrase = $_GET['Nbphrase'];
 
-
-
-
 echo'<ul class="list-group">';
 for($i = 0; $i < $nbphrase; $i++) {
     $part1 = $array1[array_rand($array1, 1)];
